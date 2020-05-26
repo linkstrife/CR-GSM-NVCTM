@@ -10,7 +10,7 @@ ii) We found it tricky to reach a balance point where the perplexity and the NPM
 
 iii) We found that setting lambda as a learnable variable leads to topic vectors with apparently lower average stddev, and the perplexity drops together. Also, we argue that the copula regularization may not contribute to boosting the NPMI scores on some datasets of NVCTM, where the Centralized Transformation Flow (CTF) is utilized. We are looking for reasonable mathematical explanations.
 
-The variances of experimental results are acceptable. We present the performances on validation sets and testing sets simultaneously for the convenience of showing the trends of metrics.
+The variances of experimental results are acceptable. It is possible to add the topic diverity regularization proposed in the original GSM and see how it works.
 
 # Acknowledgement
 We thank @FengJiaChunFromSYSU for implementing [the Neural Variational Correlated Topic Model](https://dl.acm.org/doi/10.1145/3308558.3313561).
