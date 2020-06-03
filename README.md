@@ -10,6 +10,8 @@ ii) We found it tricky to reach a balance point where the perplexity and the NPM
 
 iii) We found that setting lambda as a learnable variable leads to topic vectors with apparently lower average stddev, and the perplexity drops together. Also, we argue that the copula regularization may not contribute to boosting the NPMI scores on some datasets of NVCTM, where the Centralized Transformation Flow (CTF) is utilized. We are looking for reasonable mathematical explanations.
 
+iv) For GraphBTM, we did not use the stochastic samping of mini-corpus. We sequentially read the data batch by batch and represent each doc by buiding the graph with its biterm disctionary, so that we can obtain the corresponding latent representation for each doc to perform perplexity computation and text classification.  
+
 The variances of experimental results are acceptable. We print the results on training, validation and testing set step by step for the convinienvce of observation. It is possible to add the topic diverity regularization proposed in the original GSM and see how it works.
 
 # Acknowledgement
