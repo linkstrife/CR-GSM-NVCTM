@@ -12,7 +12,7 @@ iii) We found that setting lambda as a learnable variable leads to topic vectors
 
 iv) For GraphBTM, we did not use the stochastic samping of mini-corpus. We sequentially read the data batch by batch and represent each doc by buiding the graph with its biterm disctionary, so that we can obtain the corresponding latent representation for each doc to perform perplexity computation and text classification.
 
-v) If the linkto TagMyNews dataset is broken, please refer to https://github.com/vijaynandwani/News-Classification or https://github.com/ZhaoyangLyu/POPQORN.
+v) If the original link to **TagMyNews** dataset is broken, please refer to https://github.com/vijaynandwani/News-Classification or https://github.com/ZhaoyangLyu/POPQORN.
 
 The variances of experimental results are acceptable. We print the results on training, validation and testing set step by step for the convinienvce of observation. It is possible to add the topic diverity regularization proposed in the original GSM and see how it works.
 
